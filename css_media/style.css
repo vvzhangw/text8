@@ -1,0 +1,41 @@
+.wrap{
+	padding: 5px 10px;
+	margin: 40px;
+	text-align: center;
+	border:1px solid #999;
+	color:#999;
+}
+.viewing-area span{
+	color: #666;
+	display: none;
+}
+@media screen and (max-width: 600px) {
+	.one{
+		background-color: red;
+		border:solid 1px #000;
+		color: #fff;
+	}
+	span.t600{
+		display: inline-block;
+	}
+}
+@media screen and (min-width: 900px) {
+	.two{
+		background-color: red;
+		border:solid 1px #000;
+		color: #fff;
+	}
+	span.t900{
+		display: inline-block;
+	}
+}
+@media screen and (min-width: 600px) and (max-width: 900px)  {
+	.three{
+		background-color: red;
+		border:solid 1px #000;
+		color: #fff;
+	}
+	span.t600_900{
+		display: inline-block;
+	}
+}
